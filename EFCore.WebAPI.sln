@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.WebAPI", "EFCore.WebAPI\EFCore.WebAPI.csproj", "{0CDF5104-B2D2-403F-9A88-9B788263C380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.WebAPI.xUnitTest", "Test\EFCore.WebAPI.xUnitTest.csproj", "{2CD46119-BF97-4AF6-A334-6DA2E78BA3F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CDF5104-B2D2-403F-9A88-9B788263C380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDF5104-B2D2-403F-9A88-9B788263C380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDF5104-B2D2-403F-9A88-9B788263C380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDF5104-B2D2-403F-9A88-9B788263C380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD46119-BF97-4AF6-A334-6DA2E78BA3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD46119-BF97-4AF6-A334-6DA2E78BA3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD46119-BF97-4AF6-A334-6DA2E78BA3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD46119-BF97-4AF6-A334-6DA2E78BA3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {317E0AA2-44AA-40AC-9668-C5FD0F82FACC}
+	EndGlobalSection
+EndGlobal
